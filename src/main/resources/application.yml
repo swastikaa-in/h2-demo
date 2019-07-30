@@ -1,0 +1,27 @@
+#Log Level Configuration for hikari CP
+logging:
+  level:
+    com:
+      zaxxer:
+        hikari: DEBUG
+        
+#Actuator Management Endpoints Configuration        
+management:
+  endpoint:
+    env:
+      enabled: true
+    health:
+      show-details: always
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: '*'
+        
+#Hikari CP Configuration        
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 25
+    #Datasource URL Config for Database-Not Required for default memory mode
+    #url: jdbc:h2:tcp://localhost/~/test;DB_CLOSE_ON_EXIT=FALSE
