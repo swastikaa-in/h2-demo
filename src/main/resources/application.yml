@@ -29,8 +29,8 @@ spring:
       username: sri
       password: pass
     product:
-      driver-class-name: org.h2.Driver
-      jdbc-url: jdbc:h2:tcp://localhost/~/test;DB_CLOSE_ON_EXIT=FALSE
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: dbc:mysql://localhost:3306/mysqltutorial?useSSL=false
       username: sa
       password: ""
      
