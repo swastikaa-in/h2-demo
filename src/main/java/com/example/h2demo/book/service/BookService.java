@@ -1,4 +1,4 @@
-package com.example.h2demo.service;
+package com.example.h2demo.book.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.h2demo.domain.Book;
-import com.example.h2demo.repository.BookRepository;
+import com.example.h2demo.book.data.Book;
+import com.example.h2demo.book.repo.BookRepository;
 
 @Service
 public class BookService {

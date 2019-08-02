@@ -1,4 +1,4 @@
-package com.example.h2demo.controller;
+package com.example.h2demo.book.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.h2demo.domain.Book;
-import com.example.h2demo.service.BookService;
+import com.example.h2demo.book.data.Book;
+import com.example.h2demo.book.service.BookService;
 
 @RestController
 public class BookController {
