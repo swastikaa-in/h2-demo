@@ -4,8 +4,9 @@ logging:
     com:
       zaxxer:
         hikari: DEBUG
-        
-#Actuator Management Endpoints Configuration        
+
+#Actuator Management Endpoints Configuration
+# configuration
 management:
   endpoint:
     env:
@@ -17,7 +18,7 @@ management:
       base-path: /
       exposure:
         include: '*'
-        
+
 spring:
   datasource:
     book:
@@ -25,7 +26,7 @@ spring:
       driver-class-name: oracle.jdbc.driver.OracleDriver
       #jdbc-url: jdbc:hsqldb:hsql://localhost/xdb
       jdbc-url: jdbc:oracle:thin:@35.188.144.55:1521/pdb1
-      
+
       username: sri
       password: pass
     product:
@@ -33,4 +34,3 @@ spring:
       jdbc-url: dbc:mysql://localhost:3306/mysqltutorial?useSSL=false
       username: sa
       password: ""
-     
