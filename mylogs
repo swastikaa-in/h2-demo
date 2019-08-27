@@ -1,0 +1,58 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------------< [0;36mcom.example:h2demo[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding h2demo 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:2.1.6.RELEASE:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mh2demo[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mh2demo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mh2demo[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /home/rasagulla_in/h2-demo/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mh2demo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/rasagulla_in/h2-demo/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mh2demo[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:2.1.6.RELEASE:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mh2demo[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.1.6.RELEASE:run[m [1m(default-cli)[m @ [36mh2demo[0;1m ---[m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.6.RELEASE)
+
+2019-08-27 17:07:51.275  INFO 5116 --- [           main] com.example.h2demo.H2demoApplication     : Starting H2demoApplication on mywebhook with PID 5116 (/home/rasagulla_in/h2-demo/target/classes started by rasagulla_in in /home/rasagulla_in/h2-demo)
+2019-08-27 17:07:51.287  INFO 5116 --- [           main] com.example.h2demo.H2demoApplication     : No active profile set, falling back to default profiles: default
+2019-08-27 17:07:55.109  INFO 5116 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9081 (https)
+2019-08-27 17:07:55.209  INFO 5116 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-27 17:07:55.217  INFO 5116 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-27 17:07:55.460  INFO 5116 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-27 17:07:55.465  INFO 5116 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4037 ms
+2019-08-27 17:07:56.635 DEBUG 5116 --- [           main] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2019-08-27 17:07:57.153  INFO 5116 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-27 17:07:57.908  INFO 5116 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path ''
+2019-08-27 17:07:59.482  INFO 5116 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9081 (https) with context path ''
+2019-08-27 17:07:59.494  INFO 5116 --- [           main] com.example.h2demo.H2demoApplication     : Started H2demoApplication in 9.376 seconds (JVM running for 19.178)
+2019-08-27 17:08:22.114  INFO 5116 --- [nio-9081-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-27 17:08:22.114  INFO 5116 --- [nio-9081-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-27 17:08:22.139  INFO 5116 --- [nio-9081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2019-08-27 17:08:22.183 DEBUG 5116 --- [nio-9081-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/books]
+inside add book
+2019-08-27 17:08:22.320 DEBUG 5116 --- [nio-9081-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/books;payload=testing=]
+2019-08-27 17:12:19.919 DEBUG 5116 --- [nio-9081-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/books]
+inside add book
+2019-08-27 17:12:19.926 DEBUG 5116 --- [nio-9081-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/books;payload=testing=]
